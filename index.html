@@ -1,0 +1,46 @@
+
+<html >
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body style="background-color:rgb(237, 92, 237);">
+        <h1 align="center" style="color: aliceblue;">Calculator</h1>
+        <div class="button">
+            <center>
+            
+            <input type="text" id="t1" style="width:270px; height:30px;"><br><br>
+            <input type="button" onkeydown="op(event)" onclick="f('7')" value="7">
+            <input type="button" onkeydown="op(event)" onclick="f('8')" value="8">
+            <input type="button" onkeydown="op(event)" onclick="f('9')" value="9">
+            <input type="button" onkeydown="op(event)" onclick="f('+')" value="+">
+            <input type="button" onkeydown="op(event)" value="C"  onclick="clr()"><br><br>
+
+            <input type="button" onkeydown="op(event)" onclick="f('4')" value="4">
+            <input type="button" onkeydown="op(event)" onclick="f('5')" value="5">
+            <input type="button" onkeydown="op(event)" onclick="f('6')" value="6">
+            <input type="button" onkeydown="op(event)" onclick="f('*')" value="x">
+            <input type="button" onkeydown="op(event)" onclick="f('^0.5')" value="&radic;"><br><br>
+    
+            <input type="button" onkeydown="op(event)" onclick="f('1')" value="1">
+            <input type="button" onkeydown="op(event)" onclick="f('2')" value="2">
+            <input type="button" onkeydown="op(event)" onclick="f('3')" value="3">
+            <input type="button" onkeydown="op(event)" onclick="f('-')" value="-">
+            <input type="button" onkeydown="op(event)" onclick="f('/')" value="%"><br><br>
+        
+            <input type="button" onkeydown="op(event)" onclick="f('0')" value="0">
+            <input type="button" onkeydown="op(event)" onclick="f('.')"
+                value=".">
+            
+            <input type="button" onkeydown="op(event)" onclick="f('+')" value="+">
+            <input type="button" onclick="solve()" value="=" style="color: blue; width:110px;font-weight:bolder;">
+        </center>
+        </div>
+        
+    </body>
+</html>

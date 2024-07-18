@@ -1,0 +1,23 @@
+
+        #calc {
+            text-align: center;
+            margin: auto;
+            width: 240px;
+        }
+        .button {
+            margin-left: 550px;
+            margin-right: 550px;
+            padding: 30px;
+            background-color:rgb(72, 89, 215);
+            color: white;
+            border:5px solid rgb(20, 20, 20)
+        }
+
+        .button input[type="button"] {
+            background-color:rgb(222, 145, 20);
+            height: 50px;
+            width: 50px;
+            margin: 0 2px;
+            border: 3px solid rgb(197, 185, 185);
+        }
+   
